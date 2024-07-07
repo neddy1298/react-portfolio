@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Neddy Avgha Prasetio </span>
             from <span className="purple"> Cicurug, Indonesia.</span>
             <br />
-            I am currently studying for a Bachelor's degree in Computer Science.
+            I am currently studying for a <span className="purple"> Bachelor's degree </span> in <span className="purple"> Computer Science. </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

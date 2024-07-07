@@ -18,6 +18,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+              I am passionate about technology and programming. I enjoy exploring new advancements in the tech world and applying my skills to develop innovative solutions.
+              <br />
               <br />I have a strong interest in Web Programming, Mobile Development, and Artificial Intelligence.
               <br/>
               <br />My main programming language are:
