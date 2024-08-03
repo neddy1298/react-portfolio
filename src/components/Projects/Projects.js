@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import managementKendaraan from "../../Assets/Projects/managementKendaraan.png";
 import rutbis from "../../Assets/Projects/rutbis.png";
 import codecrafter from "../../Assets/Projects/codecrafter.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
@@ -19,6 +20,15 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={managementKendaraan}
+              isBlog={false}
+              title="Management Kendaraan"
+              description="Web app that is designed to help users manage their vehicle, such as adding, updating, and deleting vehicles. Built with Laravel and MySQL."
+              ghLink="https://github.com/neddy1298/management-Kendaraan"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={rutbis}
@@ -47,7 +57,7 @@ function Projects() {
               title="Code Crafter"
               description="Simple Landing Page for a fictional web development company, showcasing services, portfolio, and contact information. Built with HTML, CSS, and Bootstrap."
               ghLink="https://github.com/neddy1298/companyprofile"
-              demoLink="https://codecrafters.neddyap.live"
+              demoLink="https://project1.neddyap.live"
             />
           </Col>
 
