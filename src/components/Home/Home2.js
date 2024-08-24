@@ -41,18 +41,9 @@ function Home2() {
               </i>
               <br />
               <br />
+              Usually I use <b className="purple">Laravel</b>  for building web applications and
               Whenever possible, I also apply my passion for developing mobile app
-              with <b className="purple">Kotlin</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  PHP Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Laravel</b>
-              </i>
+              with <b className="purple">Kotlin</b> 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
