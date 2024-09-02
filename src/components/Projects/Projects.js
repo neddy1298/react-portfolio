@@ -27,6 +27,7 @@ function Projects() {
               title="Management Kendaraan"
               description="Web app that is designed to help users manage their vehicles, including adding, updating, and deleting vehicles. Built with Laravel and MySQL."
               ghLink="https://github.com/neddy1298/management-kendaraan"
+              demoLink="https://dishub-management-g6hdbqfvhwape5ct.southeastasia-01.azurewebsites.net"
             />
           </Col>
 
